@@ -4,9 +4,9 @@
 /tmp
 /out-tsc
 /bazel-out
-/.angular
+/.angular/*
 /.vscode
-/src
+/src/*
 
 # Node
 /node_modules
