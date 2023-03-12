@@ -2,3 +2,5 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTP_HOST} ^www.panel.voxpopulis.mx [NC]
 RewriteRule ^(.*)$ http://panel.voxpopulis.mx/$1 [L,R=301]
+Options -Indexes
+DirectoryIndex index.php index.html /dist/dashboard/
