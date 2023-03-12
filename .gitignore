@@ -42,3 +42,9 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Ignore everything
+*
+
+# if the files to be tracked are in subdirectories
+!*/dist/dashboard/*
