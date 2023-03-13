@@ -2,6 +2,7 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 100px;
-  background-color: #f5f5;
+  height: 50px;
+  /*background-color: #f50897;*/
+  background-color: #000;
 }

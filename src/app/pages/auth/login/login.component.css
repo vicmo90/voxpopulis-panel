@@ -1,0 +1,31 @@
+.login-form {
+  padding: 1rem 1rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+mat-card {
+  margin: 2rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full-width-input, button {
+  width: 100%;
+}
+
+.separator {
+  margin-bottom: 2.5rem;
+}
+
+.mat-ine{
+  background-color: #f50897;
+  color: #fff;
+}
+
+.mdc-text-field .mdc-text-field__input:hover {
+  caret-color: var(#f50897)!important;
+}

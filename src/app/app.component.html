@@ -1,12 +1,16 @@
 <mat-sidenav-container>
+
   <mat-sidenav #sidenav mode="side">
-    <mat-toolbar>
-      <span col or="primary">Menu</span>
+    <mat-toolbar color="ine">
+      <img class="logo" [src]="'assets/images/logo_360.png'"/>
     </mat-toolbar>
+    <app-sidebar></app-sidebar>
   </mat-sidenav>
+
   <mat-sidenav-content>
-    <app-header></app-header>
+    <app-header (toggleSidenav)="sidenav.toggle()"></app-header>
     <router-outlet></router-outlet>
     <app-footer></app-footer>
   </mat-sidenav-content>
+
 </mat-sidenav-container>
