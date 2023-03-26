@@ -6,3 +6,18 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   background-color: #f50897;
   color: #fff;
 }
+.contorno{
+  margin: 20px;
+}
+.legend-items-container{
+  width: 100%;
+  height: 100%;
+}
+
+.advanced-pie-legend .legend-items-container .legend-items .legend-item {
+  margin-right: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  cursor: pointer;
+  height: 60px;
+}

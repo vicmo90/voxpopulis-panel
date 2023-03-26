@@ -18,7 +18,8 @@ const myModules = [
   MatIconModule,
   MatCardModule,
   MatInputModule,
-  MatFormFieldModule
+  MatFormFieldModule,
+  MatListModule,
   ];
 
 @NgModule({
