@@ -1,1 +1,19 @@
-<p>dd works!</p>
+<div>
+  <h1>Día <b>D</b></h1>
+  <h3>Meta</h3>
+  <p>23,000</p>
+</div>
+
+<div>
+  <ngx-charts-gauge
+  [view]="view"
+  [scheme]="colorScheme"
+  [results]="single"
+  [legend]="legend"
+  [legendPosition]="legendPosition"
+  (select)="onSelect($event)"
+  (activate)="onActivate($event)"
+  (deactivate)="onDeactivate($event)"
+  >
+</ngx-charts-gauge>
+</div>

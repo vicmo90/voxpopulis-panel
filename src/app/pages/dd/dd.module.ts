@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { DdRoutingModule } from './dd-routing.module';
 import { DdComponent } from './dd.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { DdComponent } from './dd.component';
   ],
   imports: [
     CommonModule,
-    DdRoutingModule
+    DdRoutingModule,
+    NgxChartsModule
   ]
 })
 export class DdModule { }

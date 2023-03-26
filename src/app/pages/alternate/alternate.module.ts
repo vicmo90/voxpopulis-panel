@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { AlternateRoutingModule } from './alternate-routing.module';
 import { AlternateComponent } from './alternate.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { AlternateComponent } from './alternate.component';
   ],
   imports: [
     CommonModule,
-    AlternateRoutingModule
+    AlternateRoutingModule,
+    NgxChartsModule
   ]
 })
 export class AlternateModule { }

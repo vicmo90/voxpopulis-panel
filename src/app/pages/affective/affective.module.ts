@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { AffectiveRoutingModule } from './affective-routing.module';
 import { AffectiveComponent } from './affective.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { AffectiveComponent } from './affective.component';
   ],
   imports: [
     CommonModule,
-    AffectiveRoutingModule
+    AffectiveRoutingModule,
+    NgxChartsModule
   ]
 })
 export class AffectiveModule { }
